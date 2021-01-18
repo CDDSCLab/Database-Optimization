@@ -3,7 +3,7 @@ Inspired by [GNNPapers](https://github.com/thunlp/GNNPapers).
 
 ## Content
 
-* [Conferences](#Conferences)
+* [Conferences&Workshop](#ConferencesWorkshop)
 * [Courses](#Courses)
 * [Datasets](#Datasets)
 * [Tools](#Tools)
@@ -19,19 +19,21 @@ Inspired by [GNNPapers](https://github.com/thunlp/GNNPapers).
   * [Index Tuning](#Index-Tuning)
   * [End-To-End](#End-To-End)
 
-## Conferences 
+## Conferences&Workshop
 
-| Abbreviation | Full Name                                                    | -3th                                                | -2th                                             | Latest                                                |
-| ------------ | :------------------------------------------------------------ | --------------------------------------------------- | ------------------------------------------------ | ----------------------------------------------------- |
-| SIGMOD       | International Conference on Management of Data               | [2018](https://sigmod2018.org)                      | [2019](https://confer.csail.mit.edu/sigmod2019)  | [2020](https://www.sigmod2020online.org)              |
-| VLDB         | International Conference on Very large Databases             | [2018](http://vldb2018.lncc.br)                     | [2019](https://vldb.org/2019)                    | [2020](https://vldb2020.org)                          |
-| ICDE         | International Conference on Data Engineering                 | [2018](https://dblp.org/db/conf/icde/icde2018.html) | [2019](http://conferences.cis.umac.mo/icde2019)  | [2020](https://www.utdallas.edu/icde)                 |
-| CIDR         | The Conference on Innovative Data Systems Research           | [2017](http://cidrdb.org/cidr2017/index.html)       | [2019](http://cidrdb.org/cidr2019/index.html)    | [2020](http://cidrdb.org/cidr2020/index.html)         |
-| EDBT/ICDT    | International Conference on Extending Database Technology    | [2018](https://edbticdt2018.at)                     | [2019](http://edbticdt2019.inesc-id.pt)          | [2020](https://diku-dk.github.io/edbticdt2020)        |
-| DEEM         | Workshop on Data Management for End-To-End Machine Learning  | [2018](http://deem-workshop.org/2018/index.html)    | [2019](http://deem-workshop.org/2019/index.html) | [2020](http://deem-workshop.org/)                     |
-| aiDM         | International Workshop on Exploiting Artificial Intelligence Techniques for Data Management | [2018](http://www.aidm-conf.org/aidm_2018.html)     | [2019](http://www.aidm-conf.org/aidm_2019.html)  | [2020](https://dblp.org/db/conf/sigmod/aidm2020.html) |
 
-*Note: After entering the resource page, search the keyword to find the corresponding category (such as **optimization**), you can see the receiving papers  under the research category*
+| Abbreviation                         | Full Name                                                    | -3th                                                         | -2th                                                         | Latest                                                       |
+| ------------------------------------ | :----------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [SIGMOD](https://sigmod.org/)        | International Conference on Management of Data               | [2018](https://sigmod2018.org/program_sigmod.shtml)          | [2019](https://confer.csail.mit.edu/sigmod2019/schedule#MondayBreakfast) | [2020](https://www.sigmod2020online.org/research/)           |
+| [VLDB](https://www.vldb.org/)        | International Conference on Very large Databases             | [2018](http://vldb2018.lncc.br/program-schedule.html)        | [2019](https://vldb.org/2019/?papers-research)               | [2020](https://vldb2020.org/program_flat.html)               |
+| [ICDE](http://ieee-icde.org/)        | International Conference on Data Engineering                 | [2018](https://dblp.org/db/conf/icde/icde2018.html)          | [2019](http://conferences.cis.umac.mo/icde2019/?page_id=516) | [2020](https://www.utdallas.edu/icde/accepted-research-papers.html) |
+| [CIDR](http://cidrdb.org/index.html) | The Conference on Innovative Data Systems Research           | [2017](http://cidrdb.org/cidr2017/program.html)              | [2019](http://cidrdb.org/cidr2019/program.html)              | [2020](http://cidrdb.org/cidr2020/program.html)              |
+| [EDBT/ICDT](https://www.edbt.org/)   | International Conference on Extending Database Technology    | [2018](https://edbticdt2018.at/indexd4d6.html?detailed_program) | [2019](http://edbticdt2019.inesc-id.pt/?detailed_program)    | [2020](https://diku-dk.github.io/edbticdt2020/?contents=detailed_program.html) |
+| [DEEM](http://deem-workshop.org/)    | Workshop on Data Management for End-To-End Machine Learning  | [2018](http://deem-workshop.org/2018/index.html)             | [2019](http://deem-workshop.org/2019/index.html)             | [2020](http://deem-workshop.org)                             |
+| [aiDM](http://www.aidm-conf.org/)    | International Workshop on Exploiting Artificial Intelligence Techniques for Data Management | [2018](http://www.aidm-conf.org/aidm_2018.html)              | [2019](http://www.aidm-conf.org/aidm_2019.html)              | [2020](http://www.aidm-conf.org/aidm_2020.html)              |
+
+**Note**: *After entering the resource page, search the keyword to find the corresponding category (such as **optimization**), you can see the receiving papers  under the research category.*
+
 
 ## Courses  
 [Advanced Database Systems-CMU-15721-Spring2020](https://15721.courses.cs.cmu.edu/spring2020/)
@@ -137,11 +139,9 @@ Join Order Benchmark (JOB)
 1. **Selectivity Estimation Without the Attribute Value Independence Assumption.** VLDB 1997. [pdf](http://www.vldb.org/conf/1997/P486.PDF)
 
 	*Viswanath Poosala and Yannis E. Ioannidis.*
-	
 1. **Selectivity estimation using probabilistic models.** VLDB 2001. [paper](https://dl.acm.org/doi/pdf/10.1145/375663.375727)
 
 	*Lise Getoor, Benjamin Taskar, and Daphne Koller.*
-
 1. **Learning State Representations for Query Optimization with Deep Reinforcement Learning.** DEEM 2018. [paper](https://dl.acm.org/doi/pdf/10.1145/3209889.3209890)
 
 	*Jennifer Ortiz, Magdalena Balazinska, Johannes Gehrke, and S. Sathiya Keerthi.*
