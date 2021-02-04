@@ -159,7 +159,7 @@ Join Order Benchmark (JOB)
 	*Shohedul Hasan, Saravanan Thirumuruganathan, Jees Augustine, Nick Koudas, and Gautam Das.*
 
 ### Cost Estimation
-1. **An end-to-end learning-based cost estimator.** VLDB 2019. [paper](http://www.vldb.org/pvldb/vol13/p307-sun.pdf)
+1. **An end-to-end learning-based cost estimator.** VLDB 2019. [[paper](http://www.vldb.org/pvldb/vol13/p307-sun.pdf),[code](https://github.com/TsinghuaDatabaseGroup/AI4DBCode/tree/master/LeanredOptimizer/LearnedCostEstimator))
 
 	*Sun Ji, and Guoliang Li.*
 
@@ -184,7 +184,7 @@ Join Order Benchmark (JOB)
 
 	*Runsheng Benson Guo and Khuzaima Daudjee.*
 	
-1. **Reinforcement Learning with Tree-LSTM for Join Order Selection.** ICDE 2020. [paper](http://da.qcri.org/ntang/pubs/icde20jos.pdf)
+1. **Reinforcement Learning with Tree-LSTM for Join Order Selection.** ICDE 2020. [[paper](http://da.qcri.org/ntang/pubs/icde20jos.pdf),[code](https://github.com/TsinghuaDatabaseGroup/AI4DBCode/tree/master/LeanredOptimizer/LeanredJoinOrder/src-RTOS)]
 
 	*Xiang Yu,Guoliang Li,Chengliang Chai and Nan Tang.*
 	
