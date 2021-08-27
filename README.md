@@ -18,6 +18,7 @@ Inspired by [GNNPapers](https://github.com/thunlp/GNNPapers).
   * [Automatic Configuration Tuning](#Automatic-Configuration-Tuning)
   * [Index Tuning](#Index-Tuning)
   * [End-To-End](#End-To-End)
+  * [Application](#Application)
 
 ## Conferences&Workshop
 
@@ -227,3 +228,9 @@ Join Order Benchmark (JOB)
 1. **Towards a Hands-Free Query Optimizer through Deep Learning.** CIDR 2019 [paper](http://cidrdb.org/cidr2019/papers/p96-marcus-cidr19.pdf)
 
 	*Ryan Marcus and Olga Papaemmanouil.*
+
+### Application
+1. **Bao: Making Learned Query Optimization Practical.** SIGMOD 2021 [paper](https://dl.acm.org/doi/pdf/10.1145/3448016.3452838)
+
+	*Ryan Marcus, Parimarjan Negi, Hongzi Mao, Nesime Tatbu, Mohammad Alizadeh, Tim Kraska*
+	
