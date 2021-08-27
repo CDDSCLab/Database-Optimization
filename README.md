@@ -47,10 +47,11 @@ The TPC Benchmark™H (TPC-H) is a decision support benchmark.
 Subsets of IMDb data are available for access to customers for personal and non-commercial use.
 
 [JOB](https://github.com/gregrahn/join-order-benchmark)
-Join Order Benchmark (JOB)
+Join Order Benchmark (JOB).
 
 ## Tools 
 [TPC-H Query Plan Visualization](https://hyper-db.de/interface.html#)
+
 [SQL AST Explorer](https://astexplorer.net/)
 
 ## Papers 
@@ -117,7 +118,7 @@ Join Order Benchmark (JOB)
 #### sampling
 1. **Cardinality Estimation Done Right:Index-Based Join Sampling.** CIDR 2017. [paper](http://cidrdb.org/cidr2017/papers/p9-leis-cidr17.pdf)
 
-	*Viktor Leis, B. Radke, Andrey Gubichev, A. Kemper, T. Neumann*
+	*Viktor Leis, B. Radke, Andrey Gubichev, A. Kemper, T. Neumann.*
 	
 #### deep learning
 1. **Learned Cardinalities:Estimating Correlated Joins with Deep Learning.** CIDR,2019. [[paper](http://cidrdb.org/cidr2019/papers/p101-kipf-cidr19.pdf),[github](https://github.com/andreaskipf/learnedcardinalities)]
@@ -232,5 +233,5 @@ Join Order Benchmark (JOB)
 ### Application
 1. **Bao: Making Learned Query Optimization Practical.** SIGMOD 2021 [paper](https://dl.acm.org/doi/pdf/10.1145/3448016.3452838)
 
-	*Ryan Marcus, Parimarjan Negi, Hongzi Mao, Nesime Tatbu, Mohammad Alizadeh, Tim Kraska*
+	*Ryan Marcus, Parimarjan Negi, Hongzi Mao, Nesime Tatbu, Mohammad Alizadeh, Tim Kraska.*
 	
