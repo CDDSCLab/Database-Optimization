@@ -25,8 +25,8 @@ Inspired by [GNNPapers](https://github.com/thunlp/GNNPapers).
 
 | Abbreviation                         | Full Name                                                    | -3th                                                         | -2th                                                         | Latest                                                       |
 | ------------------------------------ | :----------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [SIGMOD](https://sigmod.org/)        | International Conference on Management of Data               | [2018](https://sigmod2018.org/program_sigmod.shtml)          | [2019](https://confer.csail.mit.edu/sigmod2019/schedule#MondayBreakfast) | [2020](https://www.sigmod2020online.org/research/)           |
-| [VLDB](https://www.vldb.org/)        | International Conference on Very large Databases             | [2018](http://vldb2018.lncc.br/program-schedule.html)        | [2019](https://vldb.org/2019/?papers-research)               | [2020](https://vldb2020.org/program_flat.html)               |
+| [SIGMOD](https://sigmod.org/)        | International Conference on Management of Data               | [2019](https://confer.csail.mit.edu/sigmod2019/schedule#MondayBreakfast) | [2020](https://www.sigmod2020online.org/research/)           | [2021](https://2021.sigmod.org/sigmod_research_list.shtml)          |
+| [VLDB](https://www.vldb.org/)        | International Conference on Very large Databases             | [2019](https://vldb.org/2019/?papers-research)               | [2020](https://vldb2020.org/program_flat.html)               | [2021](https://vldb.org/2021/?papers-research)        | 
 | [ICDE](http://ieee-icde.org/)        | International Conference on Data Engineering                 | [2018](https://dblp.org/db/conf/icde/icde2018.html)          | [2019](http://conferences.cis.umac.mo/icde2019/?page_id=516) | [2020](https://www.utdallas.edu/icde/accepted-research-papers.html) |
 | [CIDR](http://cidrdb.org/index.html) | The Conference on Innovative Data Systems Research           | [2017](http://cidrdb.org/cidr2017/program.html)              | [2019](http://cidrdb.org/cidr2019/program.html)              | [2020](http://cidrdb.org/cidr2020/program.html)              |
 | [EDBT/ICDT](https://www.edbt.org/)   | International Conference on Extending Database Technology    | [2018](https://edbticdt2018.at/indexd4d6.html?detailed_program) | [2019](http://edbticdt2019.inesc-id.pt/?detailed_program)    | [2020](https://diku-dk.github.io/edbticdt2020/?contents=detailed_program.html) |
@@ -82,14 +82,14 @@ Join Order Benchmark (JOB).
 
 	*M. Muralikrishna and David J. DeWitt.*
 	
-1. **Selectivity Estimation Without the Attribute Value Independence Assumption.** VLDB 1997. [paper](http://www.vldb.org/conf/1997/P486.PDF)
+2. **Selectivity Estimation Without the Attribute Value Independence Assumption.** VLDB 1997. [paper](http://www.vldb.org/conf/1997/P486.PDF)
 
 	*Viswanath Poosala and Yannis E. Ioannidis.*
 	
-1. **The history of histograms (abridged).** VLDB 2003 . [paper](https://dl.acm.org/doi/pdf/10.5555/1315451.1315455)
+3. **The history of histograms (abridged).** VLDB 2003 . [paper](https://dl.acm.org/doi/pdf/10.5555/1315451.1315455)
 
 	*Yannis Ioannidis.*
-	
+
 #### sketch
 1. **A linear-time probabilistic counting algorithm for database applications.** ACM Transactions on Database SystemsJune 1990. [paper](https://dl.acm.org/doi/pdf/10.1145/78922.78925)
 
@@ -125,18 +125,26 @@ Join Order Benchmark (JOB).
 
     *Andreas Kipf,Thomas Kipfm,Bernhard Radke,Viktor Leis,Peter Boncz,Alfons Kemper.*
     
-1. **Estimating Cardinalities with Deep Sketches.** SIGMOD 2019. [paper](https://dl.acm.org/doi/pdf/10.1145/3299869.3320218)
+2. **Estimating Cardinalities with Deep Sketches.** SIGMOD 2019. [paper](https://dl.acm.org/doi/pdf/10.1145/3299869.3320218)
 	
 	*Andreas Kipf, Dimitri Vorona, Jonas Müller, Thomas Kipf, Bernhard Radke, Viktor Leis, Peter Boncz, Thomas Neumann, and Alfons Kemper.*
 	
-1. **An end-to-end learning-based cost estimator.** VLDB 2019. [paper](http://www.vldb.org/pvldb/vol13/p307-sun.pdf)
+3. **An end-to-end learning-based cost estimator.** VLDB 2019. [paper](http://www.vldb.org/pvldb/vol13/p307-sun.pdf)
 
 	*Sun Ji, and Guoliang Li.*
 	
-1. **Monotonic Cardinality Estimation of Similarity Selection: A Deep Learning Approach.** SIGMOD 2020 . [paper](https://dl.acm.org/doi/pdf/10.1145/3318464.3380570)
+4. **Monotonic Cardinality Estimation of Similarity Selection: A Deep Learning Approach.** SIGMOD 2020 . [paper](https://dl.acm.org/doi/pdf/10.1145/3318464.3380570)
 
     *Yaoshu Wang, Chuan Xiao, Jianbin Qin, Xin Cao, Yifang Sun, Wei Wang, and Makoto Onizuka.*
-    
+
+5. **Fauce: Fast and Accurate Deep Ensembles with Uncertainty for Cardinality Estimation.** VLDB 2021.[paper](http://vldb.org/pvldb/vol14/p1950-liu.pdf)
+
+	*Jie Liu, Wenqian Dong, Dong Li, Qingqing Zhou.*
+
+6. **FLAT: Fast, Lightweight and Accurate Method for Cardinality Estimation.** VLDB 2021.[paper](http://vldb.org/pvldb/vol14/p1489-zhu.pdf)
+
+	*Rong Zhu, Ziniu Wu, Yuxing Han, Kai Zeng (Alibaba Group), Andreas Pfadler, Zhengping Qian, Jingren Zhou Bin Cui.*
+
 ### Selectivity Estimation
 1. **Selectivity Estimation Without the Attribute Value Independence Assumption.** VLDB 1997. [pdf](http://www.vldb.org/conf/1997/P486.PDF)
 
@@ -217,21 +225,24 @@ Join Order Benchmark (JOB).
 	*Ji Zhang, Yu Liu, Ke Zhou, Guoliang Li, Zhili Xiao, Bin Cheng, Jiashu Xing, Yangtao Wang, Tianheng Cheng, Li Liu, Minwei Ran, and Zekang Li.*
 	
 ### Index tuning
-1. **An Adaptive Approach for Index Tuning with Learning Classifier Systems on Hybrid Storage Environments.** HAIS 2018: Hybrid Artificial Intelligent Systems,2018 [paper](https://link.springer.com/chapter/10.1007/978-3-319-92639-1_60)
+1. **An Adaptive Approach for Index Tuning with Learning Classifier Systems on Hybrid Storage Environments.** HAIS 2018: Hybrid Artificial Intelligent Systems,2018. [paper](https://link.springer.com/chapter/10.1007/978-3-319-92639-1_60)
 
 	*Júlio Cesar NievolaDeborah Carvalho Ribeiro.*
 	
 ### End-To-End
-1. **SkinnerDB: Regret-Bounded Query Evaluation via Reinforcement Learning.** SIGMOD 2019 [paper](https://dl.acm.org/doi/pdf/10.1145/3299869.3300088)
+1. **SkinnerDB: Regret-Bounded Query Evaluation via Reinforcement Learning.** SIGMOD 2019. [paper](https://dl.acm.org/doi/pdf/10.1145/3299869.3300088)
 
 	*Immanuel Trummer, Junxiong Wang, Deepak Maram, Samuel Moseley, Saehan Jo, and Joseph Antonakakis.*
 	
-1. **Towards a Hands-Free Query Optimizer through Deep Learning.** CIDR 2019 [paper](http://cidrdb.org/cidr2019/papers/p96-marcus-cidr19.pdf)
+1. **Towards a Hands-Free Query Optimizer through Deep Learning.** CIDR 2019. [paper](http://cidrdb.org/cidr2019/papers/p96-marcus-cidr19.pdf)
 
 	*Ryan Marcus and Olga Papaemmanouil.*
 
 ### Application
-1. **Bao: Making Learned Query Optimization Practical.** SIGMOD 2021 [paper](https://dl.acm.org/doi/pdf/10.1145/3448016.3452838)
+1. **Bao: Making Learned Query Optimization Practical.** SIGMOD 2021. [paper](https://dl.acm.org/doi/pdf/10.1145/3448016.3452838)
 
 	*Ryan Marcus, Parimarjan Negi, Hongzi Mao, Nesime Tatbu, Mohammad Alizadeh, Tim Kraska.*
 	
+2. **Are We Ready For Learned Cardinality Estimation?**. VLDB 2021. [paper](http://vldb.org/pvldb/vol14/p1640-wang.pdf)
+
+	*Xiaoying Wang, Changbo Qu, Weiyuan Wu, Jiannan Wang, Qingqing Zhou.*
