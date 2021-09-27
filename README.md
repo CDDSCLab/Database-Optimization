@@ -86,11 +86,11 @@ Join Order Benchmark (JOB).
 
 	*M. Muralikrishna and David J. DeWitt.*
 	
-2. **Selectivity Estimation Without the Attribute Value Independence Assumption.** VLDB 1997. [paper](http://www.vldb.org/conf/1997/P486.PDF)
+1. **Selectivity Estimation Without the Attribute Value Independence Assumption.** VLDB 1997. [paper](http://www.vldb.org/conf/1997/P486.PDF)
 
 	*Viswanath Poosala and Yannis E. Ioannidis.*
 	
-3. **The history of histograms (abridged).** VLDB 2003 . [paper](https://dl.acm.org/doi/pdf/10.5555/1315451.1315455)
+1. **The history of histograms (abridged).** VLDB 2003 . [paper](https://dl.acm.org/doi/pdf/10.5555/1315451.1315455)
 
 	*Yannis Ioannidis.*
 
@@ -150,39 +150,39 @@ Join Order Benchmark (JOB).
 
     *Andreas Kipf,Thomas Kipfm,Bernhard Radke,Viktor Leis,Peter Boncz,Alfons Kemper.*
     
-2. **Estimating Cardinalities with Deep Sketches.** SIGMOD 2019. [paper](https://dl.acm.org/doi/pdf/10.1145/3299869.3320218)
+1. **Estimating Cardinalities with Deep Sketches.** SIGMOD 2019. [paper](https://dl.acm.org/doi/pdf/10.1145/3299869.3320218)
 	
 	*Andreas Kipf, Dimitri Vorona, Jonas Müller, Thomas Kipf, Bernhard Radke, Viktor Leis, Peter Boncz, Thomas Neumann, and Alfons Kemper.*
 	
-3. **An end-to-end learning-based cost estimator.** VLDB 2019. [paper](http://www.vldb.org/pvldb/vol13/p307-sun.pdf)
+1. **An end-to-end learning-based cost estimator.** VLDB 2019. [paper](http://www.vldb.org/pvldb/vol13/p307-sun.pdf)
 
 	*Sun Ji, and Guoliang Li.*
 	
-4. **Deep unsupervised cardinality estimation.** VLDB 2019. [[paper](https://dl.acm.org/doi/pdf/10.14778/3368289.3368294),[github](https://github.com/naru-project/naru)]
+1. **Deep unsupervised cardinality estimation.** VLDB 2019. [[paper](https://dl.acm.org/doi/pdf/10.14778/3368289.3368294),[github](https://github.com/naru-project/naru)]
 
     *Zongheng Yang, Eric Liang, Amog Kamsetty, Chenggang Wu, Yan Duan, Xi Chen, Pieter Abbeel, Joseph M. Hellerstein, Sanjay Krishnan, and Ion Stoica.*
 
-5. **NeuroCard: one cardinality estimator for all tables.** VLDB 2020. [[paper](https://dl.acm.org/doi/pdf/10.14778/3421424.3421432),[github](https://github.com/naru-project/neurocard)]
+1. **NeuroCard: one cardinality estimator for all tables.** VLDB 2020. [[paper](https://dl.acm.org/doi/pdf/10.14778/3421424.3421432),[github](https://github.com/naru-project/neurocard)]
 
     *Zongheng Yang, Amog Kamsetty, Sifei Luan, Eric Liang, Yan Duan, Xi Chen, and Ion Stoica.*
 
-6. **Monotonic Cardinality Estimation of Similarity Selection: A Deep Learning Approach.** SIGMOD 2020 . [paper](https://dl.acm.org/doi/pdf/10.1145/3318464.3380570)
+1. **Monotonic Cardinality Estimation of Similarity Selection: A Deep Learning Approach.** SIGMOD 2020 . [paper](https://dl.acm.org/doi/pdf/10.1145/3318464.3380570)
 
     *Yaoshu Wang, Chuan Xiao, Jianbin Qin, Xin Cao, Yifang Sun, Wei Wang, and Makoto Onizuka.*
 
-7. **Fauce: Fast and Accurate Deep Ensembles with Uncertainty for Cardinality Estimation.** VLDB 2021.[paper](http://vldb.org/pvldb/vol14/p1950-liu.pdf)
+1. **Fauce: Fast and Accurate Deep Ensembles with Uncertainty for Cardinality Estimation.** VLDB 2021.[paper](http://vldb.org/pvldb/vol14/p1950-liu.pdf)
 
       *Jie Liu, Wenqian Dong, Dong Li, Qingqing Zhou.*
 
-8. **FLAT: Fast, Lightweight and Accurate Method for Cardinality Estimation.** VLDB 2021.[paper](http://vldb.org/pvldb/vol14/p1489-zhu.pdf)
+1. **FLAT: Fast, Lightweight and Accurate Method for Cardinality Estimation.** VLDB 2021.[paper](http://vldb.org/pvldb/vol14/p1489-zhu.pdf)
 
       *Rong Zhu, Ziniu Wu, Yuxing Han, Kai Zeng (Alibaba Group), Andreas Pfadler, Zhengping Qian, Jingren Zhou Bin Cui.*
 
-9. **Fauce: Fast and Accurate Deep Ensembles with Uncertainty for Cardinality Estimation** VLDB 2021. [paper](http://vldb.org/pvldb/vol14/p1950-liu.pdf)
+1. **Fauce: Fast and Accurate Deep Ensembles with Uncertainty for Cardinality Estimation** VLDB 2021. [paper](http://vldb.org/pvldb/vol14/p1950-liu.pdf)
 
    *Jie Liu, Wenqian Dong, Qingqing Zhou and Dong Li.*
 
-10. **Flow-Loss: Learning Cardinality Estimates That Matter**. VLDB 2021. [paper](http://vldb.org/pvldb/vol14/p2019-negi.pdf)
+1. **Flow-Loss: Learning Cardinality Estimates That Matter**. VLDB 2021. [paper](http://vldb.org/pvldb/vol14/p2019-negi.pdf)
 
    *Parimarjan Negi, Ryan C Marcus , Andreas Kipf , Hongzi Mao, Nesime Tatbul, Tim Kraska and Mohammad Alizadeh.*
 
@@ -260,21 +260,21 @@ Join Order Benchmark (JOB).
 	
 	*Dana Van Aken, Andrew Pavlo, Geoffrey J. Gordon, and Bohan Zhang.*
 	
-2. **Explaining Inference Queries with Bayesian Optimization.** VLDB 2021. [paper](http://vldb.org/pvldb/vol14/p2576-lockhart.pdf)
+1. **Explaining Inference Queries with Bayesian Optimization.** VLDB 2021. [paper](http://vldb.org/pvldb/vol14/p2576-lockhart.pdf)
 
-3. **An Inquiry into Machine Learning-based Automatic Configuration Tuning Services on Real-World Database Management Systems.** VLDB 2021. [paper](http://vldb.org/pvldb/vol14/p1241-aken.pdf)
+1. **An Inquiry into Machine Learning-based Automatic Configuration Tuning Services on Real-World Database Management Systems.** VLDB 2021. [paper](http://vldb.org/pvldb/vol14/p1241-aken.pdf)
 
    *Dana M Van Aken, Dongsheng Yang, Sebastien Brillard, Ari Fiorino, Bohan Zhang , Christian Billian , Andrew Pavlo.*
 
-4. **CGPTuner: a Contextual Gaussian Process Bandit Approach for the Automatic Tuning of IT Configurations Under Varying Workload Conditions.** VLDB 2021. [paper](http://vldb.org/pvldb/vol14/p1401-cereda.pdf)
+1. **CGPTuner: a Contextual Gaussian Process Bandit Approach for the Automatic Tuning of IT Configurations Under Varying Workload Conditions.** VLDB 2021. [paper](http://vldb.org/pvldb/vol14/p1401-cereda.pdf)
 
    *Stefano Cereda, Stefano Valladares, Paolo Cremonesi and Stefano Doni.*
 
-5. **Database Technology for the Masses: Sub-Operators as First-Class Entities.** VLDB 2021. [paper](http://vldb.org/pvldb/vol14/p2483-bandle.pdf)
+1. **Database Technology for the Masses: Sub-Operators as First-Class Entities.** VLDB 2021. [paper](http://vldb.org/pvldb/vol14/p2483-bandle.pdf)
 
    *Maximilian Bandle and Jana Giceva.*
 
-6. **Data Acquisition for Improving Machine Learning Models.** VLDB 2021. [paper](http://vldb.org/pvldb/vol14/p1832-li.pdf)
+1. **Data Acquisition for Improving Machine Learning Models.** VLDB 2021. [paper](http://vldb.org/pvldb/vol14/p1832-li.pdf)
 
    *Yifan Li, Xiaohui Yu and Nick Koudas.*
 
