@@ -75,6 +75,10 @@ Join Order Benchmark (JOB).
 1. **基于机器学习的数据库技术综述.** 计算机学报, 2020. [paper](http://cjc.ict.ac.cn/online/onlinepaper/lgl-2020115164638.pdf)
 
 	*李国良,周煊赫,孙佶,余翔,袁海涛,刘佳斌 ,韩越.*
+	
+1. **Are We Ready For Learned Cardinality Estimation?**. VLDB 2021. [paper](http://vldb.org/pvldb/vol14/p1640-wang.pdf)
+	
+	*Xiaoying Wang, Changbo Qu, Weiyuan Wu, Jiannan Wang, Qingqing Zhou.*
 
 ###  Cardinality Estimation
 #### histograms
@@ -94,6 +98,7 @@ Join Order Benchmark (JOB).
 1. **A linear-time probabilistic counting algorithm for database applications.** ACM Transactions on Database SystemsJune 1990. [paper](https://dl.acm.org/doi/pdf/10.1145/78922.78925)
 
 	*Kyu-Young Whang, Brad T. Vander-Zanden, and Howard M. Taylor.*
+	
 1. **Loglog Counting of Large Cardinalities.** ESA 2003. [paper](http://redisgate.jp/download/DuFl03-LNCS.pdf)
 
 	*Marianne Durand and Philippe Flajolet.*
@@ -105,6 +110,26 @@ Join Order Benchmark (JOB).
 1. **HyperLogLog: the analysis of a near-optimal cardinality estimation algorithm.**  Analysis of Algorithms 2007[paper](https://hal.archives-ouvertes.fr/file/index/docid/406166/filename/FlFuGaMe07.pdf)
 
 	*Philippe Flajolet,Éric Fusy,Olivier Gandouet,Frédéric Meunier.*
+	
+1. **On the algebra of data sketches.** VLDB 2021. [paper](http://vldb.org/pvldb/vol14/p1655-lemiesz.pdf)
+
+   *Jakub Lemiesz (Wrocław University of Science and Technology*
+
+1. **SetSketch: Filling the Gap between MinHash and HyperLogLog.** VLDB 2021. [paper](http://vldb.org/pvldb/vol14/p2244-ertl.pdf)
+
+   *Otmar Ertl.*
+
+1. **SKT: A One-Pass Multi-Sketch Data Analytics Accelerator.** VLDB 2021. [paper](http://vldb.org/pvldb/vol14/p2369-chiosa.pdf)
+
+   *Monica Chiosa, Thomas Preußer and Gustavo Alonso.*
+
+1. **KLL±: Approximate Quantile Sketches over Dynamic Datasets.** VLDB 2021. [paper](http://vldb.org/pvldb/vol14/p1215-zhao.pdf)
+
+   *Fuheng Zhao, Sujaya A Maiyya, Ryan Weiner, Divy Agrawal and Amr El Abbadi.*
+
+1. **On-Off Sketch: A Fast and Accurate Sketch on Persistence.** VLDB 2021. [paper](http://vldb.org/pvldb/vol14/p128-zhang.pdf)
+
+   *Yinda Zhang, Jinyang Li, Yutian Lei, Tong Yang, Zhetao Li, Gong Zhang and Bin Cui*
 
 #### wavelet
 1. **Approximate computation of multidimensional aggregates of sparse data using wavelets.** SIGMOD 1999. [paper](https://dl.acm.org/doi/pdf/10.1145/304182.304199)
@@ -133,40 +158,56 @@ Join Order Benchmark (JOB).
 
 	*Sun Ji, and Guoliang Li.*
 	
-4. **Monotonic Cardinality Estimation of Similarity Selection: A Deep Learning Approach.** SIGMOD 2020 . [paper](https://dl.acm.org/doi/pdf/10.1145/3318464.3380570)
+4. **Deep unsupervised cardinality estimation.** VLDB 2019. [[paper](https://dl.acm.org/doi/pdf/10.14778/3368289.3368294),[github](https://github.com/naru-project/naru)]
+
+    *Zongheng Yang, Eric Liang, Amog Kamsetty, Chenggang Wu, Yan Duan, Xi Chen, Pieter Abbeel, Joseph M. Hellerstein, Sanjay Krishnan, and Ion Stoica.*
+
+5. **NeuroCard: one cardinality estimator for all tables.** VLDB 2020. [[paper](https://dl.acm.org/doi/pdf/10.14778/3421424.3421432),[github](https://github.com/naru-project/neurocard)]
+
+    *Zongheng Yang, Amog Kamsetty, Sifei Luan, Eric Liang, Yan Duan, Xi Chen, and Ion Stoica.*
+
+6. **Monotonic Cardinality Estimation of Similarity Selection: A Deep Learning Approach.** SIGMOD 2020 . [paper](https://dl.acm.org/doi/pdf/10.1145/3318464.3380570)
 
     *Yaoshu Wang, Chuan Xiao, Jianbin Qin, Xin Cao, Yifang Sun, Wei Wang, and Makoto Onizuka.*
 
-5. **Fauce: Fast and Accurate Deep Ensembles with Uncertainty for Cardinality Estimation.** VLDB 2021.[paper](http://vldb.org/pvldb/vol14/p1950-liu.pdf)
+7. **Fauce: Fast and Accurate Deep Ensembles with Uncertainty for Cardinality Estimation.** VLDB 2021.[paper](http://vldb.org/pvldb/vol14/p1950-liu.pdf)
 
-	*Jie Liu, Wenqian Dong, Dong Li, Qingqing Zhou.*
+      *Jie Liu, Wenqian Dong, Dong Li, Qingqing Zhou.*
 
-6. **FLAT: Fast, Lightweight and Accurate Method for Cardinality Estimation.** VLDB 2021.[paper](http://vldb.org/pvldb/vol14/p1489-zhu.pdf)
+8. **FLAT: Fast, Lightweight and Accurate Method for Cardinality Estimation.** VLDB 2021.[paper](http://vldb.org/pvldb/vol14/p1489-zhu.pdf)
 
-	*Rong Zhu, Ziniu Wu, Yuxing Han, Kai Zeng (Alibaba Group), Andreas Pfadler, Zhengping Qian, Jingren Zhou Bin Cui.*
+      *Rong Zhu, Ziniu Wu, Yuxing Han, Kai Zeng (Alibaba Group), Andreas Pfadler, Zhengping Qian, Jingren Zhou Bin Cui.*
+
+9. **Fauce: Fast and Accurate Deep Ensembles with Uncertainty for Cardinality Estimation** VLDB 2021. [paper](http://vldb.org/pvldb/vol14/p1950-liu.pdf)
+
+   *Jie Liu, Wenqian Dong, Qingqing Zhou and Dong Li.*
+
+10. **Flow-Loss: Learning Cardinality Estimates That Matter**. VLDB 2021. [paper](http://vldb.org/pvldb/vol14/p2019-negi.pdf)
+
+   *Parimarjan Negi, Ryan C Marcus , Andreas Kipf , Hongzi Mao, Nesime Tatbul, Tim Kraska and Mohammad Alizadeh.*
 
 ### Selectivity Estimation
 1. **Selectivity Estimation Without the Attribute Value Independence Assumption.** VLDB 1997. [pdf](http://www.vldb.org/conf/1997/P486.PDF)
 
 	*Viswanath Poosala and Yannis E. Ioannidis.*
+	
 1. **Selectivity estimation using probabilistic models.** VLDB 2001. [paper](https://dl.acm.org/doi/pdf/10.1145/375663.375727)
 
 	*Lise Getoor, Benjamin Taskar, and Daphne Koller.*
+	
 1. **Learning State Representations for Query Optimization with Deep Reinforcement Learning.** DEEM 2018. [paper](https://dl.acm.org/doi/pdf/10.1145/3209889.3209890)
 
 	*Jennifer Ortiz, Magdalena Balazinska, Johannes Gehrke, and S. Sathiya Keerthi.*
 	
-1. **Deep unsupervised cardinality estimation.** VLDB 2019. [[paper](https://dl.acm.org/doi/pdf/10.14778/3368289.3368294),[github](https://github.com/naru-project/naru)]
-
-	*Zongheng Yang, Eric Liang, Amog Kamsetty, Chenggang Wu, Yan Duan, Xi Chen, Pieter Abbeel, Joseph M. Hellerstein, Sanjay Krishnan, and Ion Stoica.*
-	
-1. **NeuroCard: one cardinality estimator for all tables.** VLDB 2020. [[paper](https://dl.acm.org/doi/pdf/10.14778/3421424.3421432),[github](https://github.com/naru-project/neurocard)]
-
-	*Zongheng Yang, Amog Kamsetty, Sifei Luan, Eric Liang, Yan Duan, Xi Chen, and Ion Stoica.*
-	
 1. **Deep Learning Models for Selectivity Estimation of Multi-Attribute Queries.** SIGMOD 2020. [paper](https://dl.acm.org/doi/pdf/10.1145/3318464.3389741)
 
 	*Shohedul Hasan, Saravanan Thirumuruganathan, Jees Augustine, Nick Koudas, and Gautam Das.*
+	
+1. **Astrid: Accurate Selectivity Estimation for String Predicates using Deep Learning**. VLDB 2020. [paper](http://vldb.org/pvldb/vol14/p471-shetiya.pdf)
+
+   *Suraj Shetiya , Saravanan Thirumuruganathan, Nick Koudas and Gautam Das.*
+
+1. 
 
 ### Cost Estimation
 1. **An end-to-end learning-based cost estimator.** VLDB 2019. [[paper](http://www.vldb.org/pvldb/vol13/p307-sun.pdf),[code](https://github.com/TsinghuaDatabaseGroup/AI4DBCode/tree/master/LeanredOptimizer/LearnedCostEstimator))
@@ -218,6 +259,24 @@ Join Order Benchmark (JOB).
 1. **Automatic Database Management System Tuning Through Large-scale Machine Learning.** SIGMOD 2017. [paper](https://dl.acm.org/doi/pdf/10.1145/3035918.3064029)
 	
 	*Dana Van Aken, Andrew Pavlo, Geoffrey J. Gordon, and Bohan Zhang.*
+	
+2. **Explaining Inference Queries with Bayesian Optimization.** VLDB 2021. [paper](http://vldb.org/pvldb/vol14/p2576-lockhart.pdf)
+
+3. **An Inquiry into Machine Learning-based Automatic Configuration Tuning Services on Real-World Database Management Systems.** VLDB 2021. [paper](http://vldb.org/pvldb/vol14/p1241-aken.pdf)
+
+   *Dana M Van Aken, Dongsheng Yang, Sebastien Brillard, Ari Fiorino, Bohan Zhang , Christian Billian , Andrew Pavlo.*
+
+4. **CGPTuner: a Contextual Gaussian Process Bandit Approach for the Automatic Tuning of IT Configurations Under Varying Workload Conditions.** VLDB 2021. [paper](http://vldb.org/pvldb/vol14/p1401-cereda.pdf)
+
+   *Stefano Cereda, Stefano Valladares, Paolo Cremonesi and Stefano Doni.*
+
+5. **Database Technology for the Masses: Sub-Operators as First-Class Entities.** VLDB 2021. [paper](http://vldb.org/pvldb/vol14/p2483-bandle.pdf)
+
+   *Maximilian Bandle and Jana Giceva.*
+
+6. **Data Acquisition for Improving Machine Learning Models.** VLDB 2021. [paper](http://vldb.org/pvldb/vol14/p1832-li.pdf)
+
+   *Yifan Li, Xiaohui Yu and Nick Koudas.*
 
 #### deep learning
 1. **An End-to-End Automatic Cloud Database Tuning System Using Deep Reinforcement Learning.** SIGMOD 2019. [paper](https://dl.acm.org/doi/pdf/10.1145/3299869.3300085)
@@ -228,7 +287,27 @@ Join Order Benchmark (JOB).
 1. **An Adaptive Approach for Index Tuning with Learning Classifier Systems on Hybrid Storage Environments.** HAIS 2018: Hybrid Artificial Intelligent Systems,2018. [paper](https://link.springer.com/chapter/10.1007/978-3-319-92639-1_60)
 
 	*Júlio Cesar NievolaDeborah Carvalho Ribeiro.*
-	
+
+1. **Benchmarking Learned Indexe.** VLDB 2021. [paper](http://vldb.org/pvldb/vol14/p1-marcus.pdf)
+
+   *Ryan C Marcus, Andreas Kipf, Alexander van Renen , Mihail Stoian, Sanchit Misra, Alfons Kemper, Thomas Neumann and Tim Kraska.*
+
+1. **Tsunami: A Learned Multi-dimensional Index for Correlated Data and Skewed Workloads.** VLDB 2021. [paper](http://vldb.org/pvldb/vol14/p74-ding.pdf)
+
+   *Jialin Ding, Vikram Nathan, Mohammad Alizadeh, Tim Kraska.*
+
+1. **Cuckoo Index: A Lightweight Secondary Index Structure.** VLDB 2021. [paper](http://vldb.org/pvldb/vol13/p3559-kipf.pdf)
+
+   *Andreas Kipf, Damian Chromejko, Alexander Hall, Peter Boncz and David G Andersen*
+
+1. **Updatable Learned Index with Precise Positions.** VLDB 2021. [paper](http://vldb.org/pvldb/vol14/p1276-wu.pdf)
+
+   *Jiacheng Wu, Yong Zhang, Shimin Chen, Yu Chen, Jin Wang and Chunxiao Xing*
+
+1. **Scalable Structural Index Construction for JSON Analytics.** VLDB 2021. [paper](http://vldb.org/pvldb/vol14/p694-zhao.pdf)
+
+   *Lin Jiang, Junqiao Qiu and Zhijia Zhao*
+
 ### End-To-End
 1. **SkinnerDB: Regret-Bounded Query Evaluation via Reinforcement Learning.** SIGMOD 2019. [paper](https://dl.acm.org/doi/pdf/10.1145/3299869.3300088)
 
@@ -243,6 +322,4 @@ Join Order Benchmark (JOB).
 
 	*Ryan Marcus, Parimarjan Negi, Hongzi Mao, Nesime Tatbu, Mohammad Alizadeh, Tim Kraska.*
 	
-2. **Are We Ready For Learned Cardinality Estimation?**. VLDB 2021. [paper](http://vldb.org/pvldb/vol14/p1640-wang.pdf)
 
-	*Xiaoying Wang, Changbo Qu, Weiyuan Wu, Jiannan Wang, Qingqing Zhou.*
