@@ -23,11 +23,11 @@ Inspired by [GNNPapers](https://github.com/thunlp/GNNPapers).
 ## Conferences&Workshop
 
 
-| Abbreviation                         | Full Name                                                    | -3th                                                         | -2th                                                         | Latest                                                       |
+| Abbreviation                         | Full Name                                                    | -2th                                                         | -1th                                                         | Latest                                                       |
 | ------------------------------------ | :----------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [SIGMOD](https://sigmod.org/)        | International Conference on Management of Data               | [2019](https://confer.csail.mit.edu/sigmod2019/schedule#MondayBreakfast) | [2020](https://www.sigmod2020online.org/research/)           | [2021](https://2021.sigmod.org/sigmod_research_list.shtml)          |
-| [VLDB](https://www.vldb.org/)        | International Conference on Very large Databases             | [2019](https://vldb.org/2019/?papers-research)               | [2020](https://vldb2020.org/program_flat.html)               | [2021](https://vldb.org/2021/?papers-research)        |
-| [ICDE](http://ieee-icde.org/)        | International Conference on Data Engineering                 | [2018](https://dblp.org/db/conf/icde/icde2018.html)          | [2019](http://conferences.cis.umac.mo/icde2019/?page_id=516) | [2020](https://www.utdallas.edu/icde/accepted-research-papers.html) |
+| [SIGMOD](https://sigmod.org/)        | International Conference on Management of Data               | [2019](https://confer.csail.mit.edu/sigmod2019/schedule#MondayBreakfast) | [2020](https://www.sigmod2020online.org/research/)           | [2021](https://2021.sigmod.org/sigmod_research_list.shtml)   |
+| [VLDB](https://www.vldb.org/)        | International Conference on Very large Databases             | [2019](https://vldb.org/2019/?papers-research)               | [2020](https://vldb2020.org/program_flat.html)               | [2021](https://vldb.org/2021/?papers-research)               |
+| [ICDE](http://ieee-icde.org/)        | International Conference on Data Engineering                 | [2019](http://conferences.cis.umac.mo/icde2019/?page_id=516) | [2020](https://icde.utdallas.edu/accepted-research-papers.html) | [2021](https://icde2021.gr/accepted-papers/)                 |
 | [CIDR](http://cidrdb.org/index.html) | The Conference on Innovative Data Systems Research           | [2017](http://cidrdb.org/cidr2017/program.html)              | [2019](http://cidrdb.org/cidr2019/program.html)              | [2020](http://cidrdb.org/cidr2020/program.html)              |
 | [EDBT/ICDT](https://www.edbt.org/)   | International Conference on Extending Database Technology    | [2018](https://edbticdt2018.at/indexd4d6.html?detailed_program) | [2019](http://edbticdt2019.inesc-id.pt/?detailed_program)    | [2020](https://diku-dk.github.io/edbticdt2020/?contents=detailed_program.html) |
 | [DEEM](http://deem-workshop.org/)    | Workshop on Data Management for End-To-End Machine Learning  | [2018](http://deem-workshop.org/2018/index.html)             | [2019](http://deem-workshop.org/2019/index.html)             | [2020](http://deem-workshop.org)                             |
@@ -119,7 +119,6 @@ Join Order Benchmark (JOB).
 1. **Cardinality Estimation Done Right:Index-Based Join Sampling.** CIDR 2017. [paper](http://cidrdb.org/cidr2017/papers/p9-leis-cidr17.pdf)
 
 	*Viktor Leis, B. Radke, Andrey Gubichev, A. Kemper, T. Neumann.*
-	
 #### deep learning
 1. **Learned Cardinalities:Estimating Correlated Joins with Deep Learning.** CIDR,2019. [[paper](http://cidrdb.org/cidr2019/papers/p101-kipf-cidr19.pdf),[github](https://github.com/andreaskipf/learnedcardinalities)]
 
@@ -197,12 +196,10 @@ Join Order Benchmark (JOB).
 1. **Reinforcement Learning with Tree-LSTM for Join Order Selection.** ICDE 2020. [[paper](http://da.qcri.org/ntang/pubs/icde20jos.pdf),[code](https://github.com/TsinghuaDatabaseGroup/AI4DBCode/tree/master/LeanredOptimizer/LeanredJoinOrder/src-RTOS)]
 
 	*Xiang Yu,Guoliang Li,Chengliang Chai and Nan Tang.*
-	
 ### Query Perfomance Prediction
 1. **Query Performance Prediction for Concurrent Queries using Graph Embedding.** VLDB 2020. [paper](http://www.vldb.org/pvldb/vol13/p1416-zhou.pdf)
 
 	*Xuanhe Zhou, Ji Sun, Guoliang Li, Jianhua Feng.*
-	
 ### Automatic Configuration Tuning
 #### statistical approach
 1. **Self-tuning performance of database systems based on fuzzy rules.** FSKD'14: 11th International Conference on Fuzzy Systems and Knowledge Discovery ,2014. [paper](https://ieeexplore.ieee.org/abstract/document/6980831)
@@ -223,12 +220,10 @@ Join Order Benchmark (JOB).
 1. **An End-to-End Automatic Cloud Database Tuning System Using Deep Reinforcement Learning.** SIGMOD 2019. [paper](https://dl.acm.org/doi/pdf/10.1145/3299869.3300085)
 	
 	*Ji Zhang, Yu Liu, Ke Zhou, Guoliang Li, Zhili Xiao, Bin Cheng, Jiashu Xing, Yangtao Wang, Tianheng Cheng, Li Liu, Minwei Ran, and Zekang Li.*
-	
 ### Index tuning
 1. **An Adaptive Approach for Index Tuning with Learning Classifier Systems on Hybrid Storage Environments.** HAIS 2018: Hybrid Artificial Intelligent Systems,2018. [paper](https://link.springer.com/chapter/10.1007/978-3-319-92639-1_60)
 
 	*Júlio Cesar NievolaDeborah Carvalho Ribeiro.*
-	
 ### End-To-End
 1. **SkinnerDB: Regret-Bounded Query Evaluation via Reinforcement Learning.** SIGMOD 2019. [paper](https://dl.acm.org/doi/pdf/10.1145/3299869.3300088)
 
