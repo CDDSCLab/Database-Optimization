@@ -23,7 +23,7 @@ Inspired by [GNNPapers](https://github.com/thunlp/GNNPapers).
 ## Conferences&Workshop
 
 
-| Abbreviation                         | Full Name                                                    | -2th                                                         | -1th                                                         | Latest                                                       |
+| Abbreviation                         | Full Name                                                    | -2nd                                                         | -1st                                                         | Latest                                                       |
 | ------------------------------------ | :----------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [SIGMOD](https://sigmod.org/)        | International Conference on Management of Data               | [2019](https://confer.csail.mit.edu/sigmod2019/schedule#MondayBreakfast) | [2020](https://www.sigmod2020online.org/research/)           | [2021](https://2021.sigmod.org/sigmod_research_list.shtml)   |
 | [VLDB](https://www.vldb.org/)        | International Conference on Very large Databases             | [2019](https://vldb.org/2019/?papers-research)               | [2020](https://vldb2020.org/program_flat.html)               | [2021](https://vldb.org/2021/?papers-research)               |
@@ -241,3 +241,7 @@ Join Order Benchmark (JOB).
 2. **Are We Ready For Learned Cardinality Estimation?**. VLDB 2021. [paper](http://vldb.org/pvldb/vol14/p1640-wang.pdf)
 
 	*Xiaoying Wang, Changbo Qu, Weiyuan Wu, Jiannan Wang, Qingqing Zhou.*
+
+3. **Make Your Database System Dream of Electric Sheep: Towards Self-Driving Operation**.VLDB 2021.[[paper](https://db.cs.cmu.edu/papers/2021/p3211-pavlo.pdf),[code](https://github.com/cmu-db/noisepage-pilot)]
+
+	*Andrew Pavlo, Matthew Butrovich, Lin Ma, Prashanth Menon, Wan Shen Lim, Dana Van Aken, William Zhang*
