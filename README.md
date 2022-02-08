@@ -241,3 +241,7 @@ Join Order Benchmark (JOB).
 2. **Are We Ready For Learned Cardinality Estimation?**. VLDB 2021. [paper](http://vldb.org/pvldb/vol14/p1640-wang.pdf)
 
 	*Xiaoying Wang, Changbo Qu, Weiyuan Wu, Jiannan Wang, Qingqing Zhou.*
+
+3. **Make Your Database System Dream of Electric Sheep: Towards Self-Driving Operation**.VLDB 2021.[[paper](https://db.cs.cmu.edu/papers/2021/p3211-pavlo.pdf),[code](https://github.com/cmu-db/noisepage-pilot)]
+
+	*Andrew Pavlo, Matthew Butrovich, Lin Ma, Prashanth Menon, Wan Shen Lim, Dana Van Aken, William Zhang*
